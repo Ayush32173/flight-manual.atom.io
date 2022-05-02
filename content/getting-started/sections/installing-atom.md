@@ -99,6 +99,22 @@ Alternatively, you can download the [Atom .deb package](https://atom.io/download
 # Install Atom
 $ sudo apt install ./atom-amd64.deb
 ```
+##### ARCH and MANJARO (PACMAN)
+
+To insall Atom on Manjaro, Garuda, Arch or any other arch related distro that use the PACMAN as package managers, you can install atom in the following way:
+
+``` command-line
+$sudo pacman -Syu
+```
+Click `y` on the prompt.
+The following command will update your package list.
+
+``` command-line
+$sudo pacman -S atom
+```
+Click `y` on prompt.
+Then, Atom should be instaled and ready to go!!!
+
 
 ##### Red Hat and CentOS (YUM), or Fedora (DNF)
 
